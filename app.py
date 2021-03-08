@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return f"""<br><h1> Hello World!<h1> <br/><h2> Hostname:  {socket.gethostname()}<h2>\n"""
+    return f"""<br><h1> Hello World ** v1 ** <h1> <br/><h2> Hostname:  {socket.gethostname()}<h2>\n"""
 
 @app.route('/test/')
 def test():
